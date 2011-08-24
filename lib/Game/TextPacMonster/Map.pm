@@ -3,7 +3,6 @@ package Game::TextPacMonster::Map;
 use strict;
 use warnings;
 use utf8;
-#use Carp;
 
 use Game::TextPacMonster::Point;
 use Game::TextPacMonster::Player;
@@ -246,7 +245,7 @@ sub get_player_point {
 sub is_lose {
     my $self = shift;
 
-    return 1 if ( $self->{_timelimit} < $self->{_current_time} );
+    return 1 if ( $self->{_timelimit} <= $self->{_current_time} );
 
     my $player_p     = $self->{_objects}->{$_PLAYER_ID}->point;
     my $player_pre_p = $self->{_objects}->{$_PLAYER_ID}->pre_point;
@@ -269,8 +268,8 @@ sub is_lose {
         return 1 if $player_p->equals($enemy_p);
     }
     return 0;
-
 }
+
 
 sub count_movable_points {
     my ( $self, $point ) = @_;
