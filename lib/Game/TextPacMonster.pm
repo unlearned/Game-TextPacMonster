@@ -3,7 +3,6 @@ package Game::TextPacMonster;
 use strict;
 use warnings;
 use utf8;
-use encoding 'utf-8';
 use Carp;
 
 use Game::TextPacMonster::Map;

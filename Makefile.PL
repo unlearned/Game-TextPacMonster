@@ -3,9 +3,8 @@ name 'Game-TextPacMonster';
 all_from 'lib/Game/TextPacMonster.pm';
 
 requires 'strict';
-requires 'warnnings';
+requires 'warnings';
 requires 'utf8';
-requires 'encording';
 requires 'Carp';
 
 tests 't/*.t';
