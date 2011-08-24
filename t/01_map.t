@@ -344,8 +344,11 @@ EOF
         }
     );
 
-    $map->{_current_time} = $timelimit;
+    $map->{_current_time} = $timelimit - 1;
     ok( !$map->is_lose, 'test_is_lose' );
+
+    $map->{_current_time} = $timelimit;
+    ok( $map->is_lose, 'test_is_lose' );
 
     $map->{_current_time} = $timelimit + 1;
     ok( $map->is_lose, 'test_is_lose' );
