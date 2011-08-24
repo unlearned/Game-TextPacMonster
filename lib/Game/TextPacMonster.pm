@@ -227,7 +227,7 @@ Game::TextPacMonster - A Packman style game on Terminal
     $game->run;
 
 
-   To make your original game is as follows.
+  To make your original game is as follows.
 
      use strict;
      use Game::TextPacMonster;
@@ -262,6 +262,10 @@ A player as "@" has to eat all "." while escape enemys "R", "L", "V", "H" and "J
 Takashi Uesugi E<lt>tksuesg@gmail.comE<gt>
 
 =head1 SEE ALSO
+
+  http://blog.goo.ne.jp/80-cafe/e/f8fc7916cba530fb638a3983ece65a18
+  http://www.geocities.co.jp/SiliconValley-Oakland/8742/gakken/puckm.html
+
 
 =head1 LICENSE
 
