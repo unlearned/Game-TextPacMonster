@@ -221,6 +221,7 @@ Game::TextPacMonster - A Packman style game on Terminal
   To play the game is as follows.
 
     use strict;
+    use warnings;
     use Game::TextPacMonster;
 
     my $game = Game::TextPacMonster->level1; # level2 or level3
@@ -230,6 +231,7 @@ Game::TextPacMonster - A Packman style game on Terminal
   To make your original game is as follows.
 
      use strict;
+     use warnings;
      use Game::TextPacMonster;
 
      my $map =<<'MAP';
@@ -255,7 +257,7 @@ Game::TextPacMonster - A Packman style game on Terminal
 =head1 DESCRIPTION
 
 Game::TextPacMonster is a Packman style game on Terminal.
-A player as "@" has to eat all "." while escape enemys "R", "L", "V", "H" and "J".
+A player as "@" has to eat all "." while escape enemies "R", "L", "V", "H" and "J".
 
 =head1 AUTHOR
 
