@@ -13,7 +13,7 @@ author_tests 'xt';
 test_requires 'Test::More';
 test_requires 'Test::MockObject';
 test_requires 'strict';
-test_requires 'warnnings';
+test_requires 'warnings';
 test_requires 'utf8';
 
 auto_set_repository;
