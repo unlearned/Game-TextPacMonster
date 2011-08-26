@@ -11,17 +11,21 @@ inc/Module/Install/Metadata.pm
 inc/Module/Install/Repository.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
+inc/strict.pm
+inc/Test/MockObject.pm
 inc/Test/More.pm
+inc/utf8.pm
+inc/warnings.pm
 lib/Game/TextPacMonster.pm
-lib/Game/TextPacMonster/Map.pm
 lib/Game/TextPacMonster/Creature.pm
-lib/Game/TextPacMonster/Player.pm
 lib/Game/TextPacMonster/H.pm
 lib/Game/TextPacMonster/J.pm
 lib/Game/TextPacMonster/L.pm
+lib/Game/TextPacMonster/Map.pm
+lib/Game/TextPacMonster/Player.pm
+lib/Game/TextPacMonster/Point.pm
 lib/Game/TextPacMonster/R.pm
 lib/Game/TextPacMonster/V.pm
-lib/Game/TextPacMonster/Point.pm
 Makefile.PL
 MANIFEST			This list of files
 META.yml

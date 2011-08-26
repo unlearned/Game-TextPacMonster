@@ -1,12 +1,9 @@
 use strict;
 use warnings;
 use utf8;
-use lib "../";
 
 use Test::More 'no_plan';
 use Test::MockObject;
-
-use Data::Dumper;
 
 use Game::TextPacMonster::Creature;
 
